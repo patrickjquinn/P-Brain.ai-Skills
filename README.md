@@ -8,6 +8,10 @@ Repo of Skills for the P-Brain.ai virtual assistant
 
 - Node 6
 
+## Video Introduction To Building A Skill
+
+https://www.youtube.com/watch?v=Hy8WHKmWTLk
+
 ## Building & Installing Skills
 
 - Add a skill by creating a new folder with the name of your new skill and adding an `index.js`.
