@@ -3,10 +3,15 @@ function * hello_resp() {
 }
 
 const intent = () => ({
-    keywords: ['hello world'], module: 'hello'
+    keywords: [], module: 'hello'
 })
+
+const examples = () => (
+    []
+)
 
 module.exports = {
     get: hello_resp,
-    intent
+    intent,
+    examples
 }

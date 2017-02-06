@@ -54,7 +54,12 @@ const intent = () => ({
     keywords: ['wear today', 'clothes'], module: 'clothing'
 })
 
+const examples = () => (
+    ['should I wear']
+)
+
 module.exports = {
     get: clothing_resp,
-    intent
+    intent,
+    examples
 }

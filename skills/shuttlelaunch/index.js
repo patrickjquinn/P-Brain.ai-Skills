@@ -19,7 +19,12 @@ function * shuttle_resp(query) {
     return {text: 'The next launch will be the ' + resp.name + ' on ' + resp.net.split(',')[0] + '.'}
 }
 
+const examples = () => (
+    ['When next launch?', 'When\'s next shuttle launch?']
+)
+
 module.exports = {
     get: shuttle_resp,
-    intent
+    intent,
+    examples
 }
